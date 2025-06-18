@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Countdown from "./components/Countdown";
 import About from "./components/About";
 import Speakers from "./components/Speakers";
+import Footer from "./components/Footer";
 
 export default function Home(){
   return(
@@ -13,6 +14,7 @@ export default function Home(){
         <Countdown />
         <About />
         <Speakers />
+        <Footer />
       </main>
     </>
   );
