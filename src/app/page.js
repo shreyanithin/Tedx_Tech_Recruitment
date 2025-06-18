@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Countdown from "./components/Countdown";
 import About from "./components/About";
 import Speakers from "./components/Speakers";
+import Sponsors from "./components/Sponsors";
 import Footer from "./components/Footer";
 
 export default function Home(){
@@ -14,6 +15,7 @@ export default function Home(){
         <Countdown />
         <About />
         <Speakers />
+        <Sponsors />
         <Footer />
       </main>
     </>
