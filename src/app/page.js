@@ -2,6 +2,7 @@ import Hero from "./components/Hero"
 import Header from "./components/Header";
 import Countdown from "./components/Countdown";
 import About from "./components/About";
+import Stats from "./components/stats"
 import Speakers from "./components/Speakers";
 import Sponsors from "./components/Sponsors";
 import Footer from "./components/Footer";
@@ -14,6 +15,7 @@ export default function Home(){
         <Hero />
         <Countdown />
         <About />
+        <Stats/>
         <Speakers />
         <Sponsors />
         <Footer />
