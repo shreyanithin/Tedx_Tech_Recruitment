@@ -32,7 +32,10 @@ export default function Countdown(){
     if(!mounted || !timeLeft) return null;
 
     return (
-        <section id="countdown" className="bg-[#0e0e0e] text-white py-20 px-6">
+        <section 
+            id="countdown" className="bg-[#0e0e0e] text-white py-20 px-6"
+            style={{ backgroundImage: 'url("/bg5.jpeg")' }}
+        >
             <motion.div
                 initial={{ opacity:0, y:40 }}
                 whileInView={{ opacity:1, y:0 }}
@@ -52,7 +55,7 @@ export default function Countdown(){
                                     key={label}
                                     whileHover={{ scale:1.05 }}
                                     transition={{ duration: 0.3 }}
-                                    className="bg-[#1c1c1c] rounded-lg p-6 flex flex-col items-center justify-center shadow-md"
+                                    className="backdrop-blur-sm bg-white/5 border border-white/20 rounded-lg p-6 flex flex-col items-center justify-center shadow-lg"
                                 >
                                     <p className="text-4xl font-semibold text-white">{value}</p>
                                     <p className="text-sm text-gray-400 mt-2">{label}</p>
