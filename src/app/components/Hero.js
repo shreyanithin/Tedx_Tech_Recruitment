@@ -26,7 +26,7 @@ export default function Hero() {
       style={{ backgroundImage: 'url("/bg6 cleaned.jpg")' }}
     >
       <div className="absolute inset-0  bg-opacity-60 backdrop-blur-[1px] z-0" />
-    <div className="z-10 translate-x-[-5%] sm:translate-x-[-10%] md:translate-x-[-30%]">
+    <div className="z-10 translate-x-0 sm:translate-x-0 md:translate-x-[-30%]">
       <motion.div
         className="z-10 flex flex-wrap justify-center "
         variants={containerVariants}
